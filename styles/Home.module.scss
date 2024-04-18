@@ -20,7 +20,7 @@
 	&::before {
 		content: '';
 		background: linear-gradient(0, rgba(255, 255, 255, .2), rgba(255, 255, 255, .2)),
-		url("https://media.pr1mer.tech/arguiot/header-white.jpg?auto=compress,format&fit=max&w=1000");
+		url("/nikhilv.png");
 		background-size: cover;
 		width: 100vw;
 		max-width: 66vh;
@@ -69,6 +69,10 @@
 	box-sizing: border-box;
 }
 
+.portfolioWrapper {
+	padding: 1rem;
+}
+
 @media (max-width: 900px) {
     .header {
 		padding-left: 20px;
@@ -84,7 +88,7 @@
 		background-color: #000;
 	}
 	.header::before {
-		background: linear-gradient(0, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url("https://media.pr1mer.tech/arguiot/header-black.jpg?auto=compress,format&fit=max&w=1000") !important;
+		background: linear-gradient(0, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url("/nikhilv.png") !important;
 		background-size: cover !important;
 	}
 }
