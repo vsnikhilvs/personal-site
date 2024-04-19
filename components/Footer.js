@@ -1,5 +1,5 @@
 import { Divider, Grid, Text } from "@geist-ui/react";
-import { Github, Linkedin, Twitter } from "@geist-ui/react-icons";
+import { Image, Instagram, Linkedin } from "@geist-ui/react-icons";
 import Link from "next/link";
 import styles from "../styles/Footer.module.scss";
 import React from "react";
@@ -32,6 +32,28 @@ export default function Footer() {
                 rel="noreferrer"
               >
                 <Linkedin /> LinkedIn
+              </a>
+            </div>
+            <div className={styles.social}>
+              <a
+                href="https://www.instagram.com/vs_nikhil_vs/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Instagram /> Instagram
+              </a>
+            </div>
+          </Grid>
+          <Grid xs={24} md={7}>
+            <Divider />
+            <Text h3>Websites</Text>
+            <div className={styles.social}>
+              <a
+                href="https://my-portfolio-258025.web.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Image /> Photography
               </a>
             </div>
           </Grid>

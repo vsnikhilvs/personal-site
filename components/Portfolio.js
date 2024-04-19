@@ -32,7 +32,7 @@ export default function Portfolio() {
       </Grid>
       <Grid xs={24} md={16}>
         <Text className={styles.text}>
-          Dedicated front-end web developer with over three years of hands-on
+          Dedicated front-end developer with over three years of hands-on
           experience specializing in crafting responsive websites utilizing
           ReactJS and NextJS frameworks. Known for consistently delivering
           superior user experiences across various devices and browsers. Seeking
