@@ -19,7 +19,7 @@ __webpack_require__.d(__webpack_exports__, {
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(893);
 // EXTERNAL MODULE: ./styles/globals.scss
-var globals = __webpack_require__(476);
+var globals = __webpack_require__(716);
 // EXTERNAL MODULE: external "@geist-ui/react"
 var react_ = __webpack_require__(357);
 // EXTERNAL MODULE: external "react"
@@ -75,7 +75,7 @@ function MyApp({ Component , pageProps  }) {
 
 /***/ }),
 
-/***/ 476:
+/***/ 716:
 /***/ (() => {
 
 
