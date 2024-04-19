@@ -1,9 +1,10 @@
 module.exports = {
+  distDir: "build",
   reactStrictMode: true,
   images: {
-    domains: ['guidelines.pr1mer.tech'],
+    domains: ["guidelines.pr1mer.tech"],
   },
   typescript: {
     ignoreBuildErrors: true,
   },
-}
+};
