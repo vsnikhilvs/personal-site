@@ -197,7 +197,7 @@ export default function Portfolio() {
           <Grid xs={24} md={8}>
             <Card className={styles.card}>
               <img
-                src="/pogr.jpg"
+                src="https://vsnikhilvs.github.io/personal-site/pogr.jpg"
                 alt="Play Of the Game Rating"
                 className={styles.cardImg}
               />
@@ -225,7 +225,7 @@ export default function Portfolio() {
           <Grid xs={24} md={8}>
             <Card className={styles.card}>
               <img
-                src="/digitaltwin.png"
+                src="https://vsnikhilvs.github.io/personal-site/digitaltwin.png"
                 alt="Digital Twin"
                 className={styles.cardImg}
               />
@@ -252,7 +252,7 @@ export default function Portfolio() {
           <Grid xs={24} md={8}>
             <Card className={styles.card}>
               <img
-                src="/smuggleverse.jpg"
+                src="https://vsnikhilvs.github.io/personal-site/smuggleverse.jpg"
                 alt="Smuggleverse"
                 className={classNames(styles.cardImg, styles.darkInvert)}
               />
@@ -279,7 +279,7 @@ export default function Portfolio() {
           <Grid xs={24} md={8}>
             <Card className={styles.card}>
               <img
-                src="/logicplum.jpg"
+                src="https://vsnikhilvs.github.io/personal-site/logicplum.jpg"
                 alt="LogicPlum"
                 className={styles.cardImg}
               />
@@ -306,7 +306,7 @@ export default function Portfolio() {
           <Grid xs={24} md={8}>
             <Card className={styles.card}>
               <img
-                src="/polarishealthai.jpg"
+                src="https://vsnikhilvs.github.io/personal-site/polarishealthai.jpg"
                 alt="PolarisHealth"
                 className={styles.cardImg}
               />
