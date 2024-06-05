@@ -18,7 +18,7 @@ Object.defineProperty(exports, "addBasePath", ({
 }));
 const _addpathprefix = __webpack_require__(751);
 const _normalizetrailingslash = __webpack_require__(387);
-const basePath = "/personal" || 0;
+const basePath =  false || "";
 function addBasePath(path, required) {
     if (false) {}
     return (0, _normalizetrailingslash.normalizePathTrailingSlash)((0, _addpathprefix.addPathPrefix)(path, basePath));
@@ -146,7 +146,7 @@ Object.defineProperty(exports, "getDomainLocale", ({
         return getDomainLocale;
     }
 }));
-const basePath = (/* unused pure expression or super */ null && ("/personal" || 0));
+const basePath = (/* unused pure expression or super */ null && ( false || ""));
 function getDomainLocale(path, locale, locales, domainLocales) {
     if (false) {} else {
         return false;
