@@ -1,6 +1,5 @@
 module.exports = {
-  distDir: "build",
-  basePath: "/personal-site",
+  output: "export",
   reactStrictMode: true,
   images: {
     domains: ["guidelines.pr1mer.tech"],
