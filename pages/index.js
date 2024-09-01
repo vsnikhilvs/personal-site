@@ -81,15 +81,15 @@ export default function Home({ allPosts, contributions }) {
           </h1>
         </NextLink>
         <p className={styles.text} ref={text}>
-          I'm a Frontend Developer at{" "}
+          I'm a Senior Application Developer at{" "}
           <a
             href="https://www.neoito.com/"
             target="_blank"
             style={{ color: "inherit" }}
           >
-            <strong>NeoITO</strong>
+            <strong>EY</strong>
           </a>
-          . I'm a passionate programmer, and I love to build things. Have fun
+          . I'm more of a front end person, and I love to build things. Have fun
           learning about me!
         </p>
         <div className={styles.bubble} ref={bubble} />

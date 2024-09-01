@@ -5,6 +5,9 @@ import styles from "../styles/Portfolio.module.scss";
 export default function Portfolio() {
   const handleClick = (type) => {
     switch (type) {
+      case "fromthefarm":
+        window.open("https://fromthefarm.io /", "_blank");
+        break;
       case "pogr":
         window.open("https://pogr.gg/", "_blank");
         break;
@@ -20,6 +23,9 @@ export default function Portfolio() {
       case "polarishealthai":
         window.open("https://polarishealth.ai/", "_blank");
         break;
+      case "winnow":
+        window.open("https://www.winnowhealth.ai/", "_blank");
+        break;
 
       default:
         break;
@@ -32,7 +38,7 @@ export default function Portfolio() {
       </Grid>
       <Grid xs={24} md={16}>
         <Text className={styles.text}>
-          Dedicated front-end developer with over three years of hands-on
+          Front-end developer with over three years of hands-on
           experience specializing in crafting responsive websites utilizing
           ReactJS and NextJS frameworks. Known for consistently delivering
           superior user experiences across various devices and browsers. Seeking
@@ -66,7 +72,7 @@ export default function Portfolio() {
             <Card className={styles.card}>
               <Text className={styles.label}>Other</Text>
               <Text className={styles.cardText}>
-                <Text b>BabylonJS, TailwindCSS, PrimeNG, D3JS</Text>
+                <Text b>BabylonJS, TailwindCSS, PrimeNG, D3JS, Jest</Text>
               </Text>
             </Card>
           </Grid>
@@ -88,7 +94,14 @@ export default function Portfolio() {
       </Grid>
       <Grid xs={24} md={16}>
         <Text className={styles.text}>
-          <Text b>SDE 2, NeoITO (Sep 2022 - Current)</Text>
+          <Text b>Senior Application Developer, EY (August 2024 - Current)</Text>
+          <br />
+          <p className={styles.ptext}>
+            • Will be updating soon !
+          </p>
+          <br />
+          <br />
+          <Text b>SDE 2, NeoITO (Sep 2022 - May 2024)</Text>
           <br />
           <p className={styles.ptext}>
             • Overseeing the successful completion of various projects by
@@ -197,6 +210,31 @@ export default function Portfolio() {
           <Grid xs={24} md={8}>
             <Card className={styles.card}>
               <img
+                src="https://vsnikhilvs.github.io/personal-site/farm.jpg"
+                alt="From the Farm"
+                className={styles.cardImg}
+              />
+              <Text
+                className={styles.label}
+                align="center"
+                onClick={() => handleClick("fromthefarm")}
+                style={{ cursor: "pointer" }}
+              >
+                From the Farm
+              </Text>
+              <Text
+                className={styles.cardText}
+                style={{ textAlign: "justify " }}
+              >
+                <p>
+                  Fresh products directly from the farm !
+                </p>
+              </Text>
+            </Card>
+          </Grid>
+          <Grid xs={24} md={8}>
+            <Card className={styles.card}>
+              <img
                 src="https://vsnikhilvs.github.io/personal-site/pogr.jpg"
                 alt="Play Of the Game Rating"
                 className={styles.cardImg}
@@ -299,6 +337,31 @@ export default function Portfolio() {
                   LogicPlum combinesthe power of advanced AIsystems with some of
                   the best technologistsin existence to design, code, and create
                   your AI application
+                </p>
+              </Text>
+            </Card>
+          </Grid>
+          <Grid xs={24} md={8}>
+            <Card className={styles.card}>
+              <img
+                src="https://vsnikhilvs.github.io/personal-site/winnow.jpg"
+                alt="Winnow"
+                className={styles.cardImg}
+              />
+              <Text
+                className={styles.label}
+                align="center"
+                onClick={() => handleClick("winnow")}
+                style={{ cursor: "pointer" }}
+              >
+                Winnow
+              </Text>
+              <Text
+                className={styles.cardText}
+                style={{ textAlign: "justify  " }}
+              >
+                <p>
+                AI enabled physician hiring platform, making use of connections of each physicians for decision making
                 </p>
               </Text>
             </Card>

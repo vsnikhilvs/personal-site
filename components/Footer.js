@@ -3,6 +3,9 @@ import { Image, Instagram, Linkedin } from "@geist-ui/react-icons";
 import Link from "next/link";
 import styles from "../styles/Footer.module.scss";
 import React from "react";
+import MediumIcon from "./MediumIcon";
+import DevtoIcon from "./DevtoIcon";
+import HashNodeIcon from "./HashNodeIcon";
 
 export default function Footer() {
   return (
@@ -32,6 +35,33 @@ export default function Footer() {
                 rel="noreferrer"
               >
                 <Linkedin /> LinkedIn
+              </a>
+            </div>
+            <div className={styles.social}>
+              <a
+                href="https://dev.to/vsnikhilvs"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <DevtoIcon /> Dev.to
+              </a>
+            </div>
+            <div className={styles.social}>
+              <a
+                href="https://vsnikhilvs.medium.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <MediumIcon /> Medium
+              </a>
+            </div>
+            <div className={styles.social}>
+              <a
+                href="https://vsnikhilvs.hashnode.dev/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <HashNodeIcon /> Hashnode
               </a>
             </div>
             <div className={styles.social}>
