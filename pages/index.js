@@ -83,7 +83,7 @@ export default function Home({ allPosts, contributions }) {
         <p className={styles.text} ref={text}>
           I'm a Senior Application Developer at{" "}
           <a
-            href="https://www.neoito.com/"
+            href="https://www.ey.com/en_in/"
             target="_blank"
             style={{ color: "inherit" }}
           >
