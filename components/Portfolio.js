@@ -127,6 +127,7 @@ export default function Portfolio() {
           •	Developed Metrics.ai, an innovative platform designed to analyze activity data sourced from version control systems 
           and project management tools, that would save the analysis time of product team by at least 25%.
           </p>
+          <p className={styles.ptext}>
           •	Utilized Storybook for UI components creation which decreased the application size by 30% resulting 
           in faster loading and improved bundling.
           </p>
